@@ -35,3 +35,9 @@ def generate_sequences(train_x, train_y, seq_length):
 
     return lstm_x, lstm_y
 
+def remap(one_hot, columns):
+    """
+    Takes a one-hot encoded sequence of chords and converts them into the original chords
+    """
+    df = pd.DataFrame(one_hot, columns=columns)
+    return df.idxmax(axis=1)
