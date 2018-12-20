@@ -1,5 +1,7 @@
 # chord-prediction
 
+## Folder structure
+
 ## Requirements:
 pandas==0.23.0
 seaborn==0.9.0
