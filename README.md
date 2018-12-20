@@ -1,9 +1,17 @@
 # chord-prediction
-In its current state, just a place to play around with chord prediction as part of the EPFL ML course
 
-## Setup used
-tensorflow
-pandas
-numpy
-matplotlib
-seaborn
+## Requirements:
+pandas==0.23.0
+seaborn==0.9.0
+matplotlib==2.2.2
+scikit-learn==0.19.1
+scipy==1.1.0
+numpy==1.14.3
+tensorflow==1.12.0
+Keras-Applications==1.0.6
+Keras-Preprocessing==1.0.5
+jupyter==1.0.0
+
+
+
+
