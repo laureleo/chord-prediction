@@ -1,6 +1,9 @@
 
 # chord-prediction
 
+This project focuses on deep learning approaches for chord prediction in Ludwig van Beethoven's string quartets given a progression of its preceding chords. Recurrent neural networks (RNN) were used to design predictive models. In particular, N-gram-based approach was used to train long short-term memory (LSTM) and bidirectional LSTM network models on a dataset of Beethoven's quartets' harmonic analyses. 
+
+
 ## Run
 Make sure all the requirements are fulfilled. 
 Then enter jupyter and run the notebook 'run.ipynb'
