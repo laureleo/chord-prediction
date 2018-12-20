@@ -6,19 +6,19 @@ Make sure all the requirements are fulfilled.
 Then enter jupyter and run the notebook 'run.ipynb'
 ## Folder structure
 
-**visualizations.py**
+* **visualizations.py**
 Generation of chord distributions and other plots
 
-**chord_functions.py**
+* **chord_functions.py**
 Convenience functions, for generating sequences for example
 
-**run.ipynb**
+* **run.ipynb**
 Notebook to run to produce final results
 
-**cross_fold_weights/best/**
+* **cross_fold_weights/best/**
 Contains the weights from after the training process used for the final result
 
-**data/**
+* **data/**
 Contains the original and modified data files with the annotated chords
 
 ## Requirements:
