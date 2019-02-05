@@ -36,3 +36,6 @@ Contains the original and modified data files with the annotated chords
 * scikit-learn==0.19.1
 * scipy==1.1.0
 * numpy==1.14.3
+
+
+[![DOI](https://zenodo.org/badge/158099585.svg)](https://zenodo.org/badge/latestdoi/158099585)
