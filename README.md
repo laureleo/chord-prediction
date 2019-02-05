@@ -6,7 +6,9 @@ This project focuses on deep learning approaches for chord prediction in Ludwig 
 
 ## Run
 Make sure all the requirements are fulfilled. 
-Then enter jupyter and run the notebook 'run.ipynb'
+Then enter jupyter and run the notebook 'run-2.ipynb'
+
+If you don't want to cross-validation etc you can simply run the cell that loads the BACKUP csv file to get the results used.
 ## Folder structure
 
 * **visualizations.py**
@@ -15,11 +17,14 @@ Generation of chord distributions and other plots
 * **chord_functions.py**
 Convenience functions, for generating sequences for example
 
-* **run.ipynb**
-Notebook to run to produce final results
+* **run-1.ipynb**
+Notebook that was run to produce preliminary results
+
+* **run-2.ipynb**
+Notebook to run to reproduce latest results
 
 * **cross_fold_weights/best/**
-Contains the weights from after the training process used for the final result
+Contains the weights from after the training process used for the preliminary results
 
 * **data/**
 Contains the original and modified data files with the annotated chords
