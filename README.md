@@ -8,7 +8,7 @@ This project focuses on deep learning approaches for chord prediction in Ludwig 
 Make sure all the requirements are fulfilled. 
 Then enter jupyter and run the notebook 'run-2.ipynb'
 
-If you don't want to cross-validation etc you can simply run the cell that loads the BACKUP csv file to get the results used.
+If you don't want to go through the cross-validation process etc you can simply run the cell that loads the BACKUP csv file to get the results as a pandas dataframe.
 ## Folder structure
 
 * **visualizations.py**
